@@ -1,0 +1,35 @@
+form{
+    border: 1px solid;
+    width: 300px;
+    padding: 20px 30px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+.form-group label{
+    min-width: 250px;
+    display: inline-block;
+    color: white;
+    font-weight: 500;
+}
+
+.form-group input{
+    min-width: 250px;
+    height: 25px;
+}
+
+.invalid-feedback{
+    color: darkred;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.btn{
+    height: 40px;
+    width: 100px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    background-color: blue;
+}
